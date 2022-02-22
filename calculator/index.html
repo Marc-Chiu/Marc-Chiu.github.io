@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+Marc Chiu
+july 14 2021
+CSE 154 Kasey Champion
+
+CP2 is using javascript to take in two vectors and graph them and either there sum
+or differnce.
+-->
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+    <title>Vector Calculator</title>
+  </head>
+  <body>
+    <header>
+      <h1>Vector Calculator</h1>
+      <p>Enter two vectors and choose to calculate the sum or difference</p>
+    </header>
+    <main>
+      <section id="graph">
+        <table>
+          <colgroup>
+            <col span="3">
+          </colgroup>
+          <thead>
+            <tr>
+              <th></th>
+              <th scope="col">x-value</th>
+              <th scope="col">y-value</th>
+            </tr>
+          </thead>
+          <tr>
+            <th class="a">A</th>
+            <td>
+              <input class="a x" type="text" placeholder="Enter" minlength="1" size="10">
+            </td>
+            <td>
+              <input class="a y" type="text" placeholder="Enter" minlength="1" size="10">
+            </td>
+          </tr>
+          <tr>
+            <th class="b">B</th>
+            <td>
+              <input class="b x" type="text" placeholder="Enter" minlength="1" size="10">
+            </td>
+            <td>
+              <input class="b y" type="text" placeholder="Enter" minlength="1" size="10">
+            </td>
+          </tr>
+        </table>
+        <section>
+          <button id="add" type="button">Addition</button>
+          <button id="sub" type="button">Subtraction</button>
+          <button id="clear" type="button">Clear Vectors</button>
+          <button id="record" type="button">Record Result</button>
+        </section>
+        <p id="answer"></p>
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <ul>
+          <li>Results:</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Marc Chiu</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+header, #graph, footer {
+  text-align: center;
+}
+
+header p, .result {
+  font-size: 18px;
+}
+
+footer, li, th.b {
+  color: seagreen;
+}
+
+#canvas, input {
+  background-color: white;
+}
+
+header {
+  margin-top: 25px;
+}
+
+header p {
+  margin-top: 2px;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: "Karla", serif;
+  margin-bottom: 0px;
+  color: green;
+}
+
+body {
+  background: -webkit-linear-gradient(white, #87CEEB) fixed;
+}
+
+table, #graph {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#graph {
+  margin-top: 50px;
+  border: black solid 0.2rem;
+  width: 30%;
+  padding: 20px 50px 0px 50px;
+  background-color: mintcream;
+}
+
+tr > th {
+  margin-left: 10px;
+}
+
+button {
+  padding: 0.7em;
+  border-radius: 1em;
+  font-family: "Lucida", serif;
+  background-color: lightcyan;
+  color: deepskyblue;
+  text-transform: uppercase;
+  border-style: solid;
+  border-color: steelblue;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: teal;
+}
+
+input {
+  border-radius: 0.4em;
+  height: 120%;
+  width: 100px;
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+canvas {
+  width: 100%;
+  border: solid 0.2em deepskyblue;
+  border-radius: 0.5em;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+th.a {
+  color: firebrick;
+}
+
+ul {
+  text-align: left;
+  list-style-type: none;
+}
